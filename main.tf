@@ -27,8 +27,8 @@ resource "azurerm_data_factory_pipeline" "example" {
 ]
   JSON  
 }
-
-resource "azurerm_data_factory_linked_service_sql_server" "example" {
+#########################testing begin
+/*resource "azurerm_data_factory_linked_service_sql_server" "example" {
   name                = var.name
   resource_group_name = var.resource_group_name
   data_factory_name   = var.name
@@ -40,8 +40,8 @@ resource "azurerm_data_factory_dataset_sql_server_table" "example" {
   resource_group_name = var.resource_group_name
   data_factory_name   = var.name
   linked_service_name = var.name
-}
-
+}*/
+######################################testing end
 
 /* working!!!!!
 resource "azurerm_data_factory_linked_service_mysql" "example" {
