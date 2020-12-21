@@ -4,7 +4,7 @@ resource "azurerm_data_factory" "example" {
   resource_group_name = var.resource_group_name
   tags                = var.tags
 }
-
+/*
 resource "azurerm_data_factory_pipeline" "example" {
   name                = var.name
   resource_group_name = var.resource_group_name
@@ -26,7 +26,7 @@ resource "azurerm_data_factory_pipeline" "example" {
     }
 ]
   JSON  
-}
+}/*
 #########################testing begin
 /*resource "azurerm_data_factory_linked_service_sql_server" "example" {
   name                = var.name
